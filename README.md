@@ -64,6 +64,7 @@ blenderproc run src/renderer.py --gripper_name panda --model_name model.obj
 python scripts/run_offline.py
 ```
 In our demo, you need to manually select points to provide an initial prompt for the mask tracker. Alternatively, you can modify the code to automatically generate the initial mask using method such as CNOS.
+It should be particularly noted that the quality of the mask will largely affect the final prediction result.
 <p align="center">
   <img src="media/choose_mask.jpeg" width="480">
 </p>
