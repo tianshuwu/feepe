@@ -55,12 +55,19 @@ pip install -e .
 
 ## render 
 ```bash 
-blenderproc run src/renderer.py --gripper_name panda --model_name model.obj
 # blenderproc run src/renderer.py --gripper_name $gripper_name --model_name $model_name
+blenderproc run src/renderer.py --gripper_name panda --model_name model.obj
 ```
 
 ## run pose estimation demo
-```bash 
+```bash
+# download demo data
+mkdir data
+cd data
+wget https://drive.google.com/file/d/1puJ8PMY3jK1cKy56Fo7lxAzEGDhJBjmy/view?usp=sharing
+cd ..
+
+# run offline demo
 python scripts/run_offline.py
 ```
 In our demo, you need to manually select points to provide an initial prompt for the mask tracker. Alternatively, you can modify the code to automatically generate the initial mask using method such as CNOS.
