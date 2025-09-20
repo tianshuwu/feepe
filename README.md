@@ -13,7 +13,17 @@ IEEE International Conference on Robotics and Automation (ICRA) 2025
   <img src="media/demo.gif" width="480">
 </p>
 
-FEEPE is a lightweight, CAD-model-based algorithm for real-time 6D pose estimation of end-effectors, and it is also suitable for hand-eye calibration. Note that during use, the relative position between the camera and the robot base should remain fixed.
+FEEPE is a lightweight, CAD-model-based algorithm for real-time 6D pose estimation of end-effectors, and it is also suitable for **high-accuracy hand-eye calibration**. Note that during use, the relative position between the camera and the robot base should remain fixed.
+
+If you find our work useful, please **star this repo** and consider citing our paper:
+```bibtex
+@inproceedings{wu2025feepe,
+  title={Foundation Feature-Driven Online End-Effector Pose Estimation: A Marker-Free and Learning-Free Approach},
+  author={Wu, Tianshu and Zhang, Jiyao and Liang, Shiqian and Han, Zhengxiao and Dong, Hao},
+  booktitle={ICRA},
+  year={2025},
+}
+```
 
 # Install
 
